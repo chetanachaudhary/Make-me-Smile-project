@@ -1,0 +1,53 @@
+html{
+    font-size:10px;
+    font-family:'Outfit';
+    overflow:hidden;
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+}
+
+.border{
+    height:100vh;
+    width: 100vw;
+    background-color: rgb(101, 192, 192);
+    display:flex;
+    justify-content: center;
+}
+.box{
+    height:35rem;
+    width:28rem;
+    background: rgb(204, 33, 33);
+    position:absolute;
+    top:4rem;
+    border-radius:1.75%;
+
+}
+
+
+img{
+    position:absolute;
+    top:4rem;
+    left:3.5rem;
+    border-radius:1%;
+}
+#changeImage{
+    position:absolute;
+    top:29.5rem;
+    left:7.5rem;
+    
+}
+span{
+    font-size:20px;
+    
+}
+#btn1{
+    height:4rem;
+    width:15rem;
+    position:absolute;
+    top:40rem;
+    left:7rem;
+    background:linear-gradient(-35deg,rgb(204, 73, 41),rgb(139, 205, 236));
+    border-color: 2px solid rgb(236, 240, 17);
+}
